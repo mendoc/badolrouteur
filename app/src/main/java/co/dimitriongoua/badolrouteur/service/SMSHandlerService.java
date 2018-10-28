@@ -105,8 +105,8 @@ public class SMSHandlerService extends Service {
                 Map<String, String> params = new HashMap<String, String>();
                 Log.d(TAG, "Envoi des paramètres en cours ...");
                 params.put("reference", recharge.getReference());
-                params.put("montant", recharge.getMontant());
-                params.put("numero", recharge.getNumero());
+                params.put("montant",   recharge.getMontant());
+                params.put("numero",    recharge.getNumero());
                 params.put("timestamp", recharge.getTimestamp());
                 return params;
             }
