@@ -1,7 +1,9 @@
-package co.dimitriongoua.badolrouteur;
+package co.dimitriongoua.badolrouteur.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import co.dimitriongoua.badolrouteur.R;
 
 public class MainActivity extends AppCompatActivity {
 
